@@ -38,3 +38,7 @@ $(document).ready(function(){
   $("#fab-btn").mouseout(function(){
       $('.tooltipped').tooltip('close');
   })
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
