@@ -44,9 +44,14 @@ $(document).ready(function(){
   });
 
 
-$('ul.navbar').find('a').click(function(){
-  var $href = $(this).attr('href');
-  var $anchor = $($href).offset();
-  $('body').animate({ scrollTop: $anchor.top },'slow');
-  return false;
+  $("#about-tab").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top},
+        'slow');
+});
+
+$("#portfolio-tab").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#portfolio").offset().top},
+      'slow');
 });
