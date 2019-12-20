@@ -32,8 +32,9 @@
               <div class="nav-wrapper">
                 <ul class="right hide-on-med-and-down">
                   <li class="active"></li>
-                    <li><a class="btn #e0e0e0 grey lighten-2" href="#about" id="about-tab">About Me</a></li>
-                  <li><a class="btn #e0e0e0 grey lighten-2" href="#portfolio" id="portfolio-tab">Portfolio</a></li>
+                    <li><a class="btn-small #e0e0e0 grey lighten-2" href="#about" id="about-tab">About Me</a></li>
+                  <li><a class="btn-small #e0e0e0 grey lighten-2" href="#portfolio" id="portfolio-tab">Portfolio</a></li>
+                  <li><a class="btn-small #e0e0e0 grey lighten-2" href="#contact" id="contact-tab">Contact</a></li>
                 </ul>
               </div>
             </nav>
@@ -53,9 +54,8 @@
       <p id="scrolltext">Scroll Down For More Info</p>
     </div>
     <i class="fas fa-arrow-down"></i>
-
-
 </div>
+
 
 <div class="parallax-container" id=para1>
         <div class="parallax"><img class= "responsive-img" src="images/pattern.jpeg"></div>
@@ -87,7 +87,7 @@
         
               <div class="row">
                 <div class="col s12 m4">
-                  <div class="material-placeholder" style=""><img class="materialboxed responsive-img z-depth-1" data-caption="Pass the Remote" src="images/pass.png" style=""></div>
+                  <div class="material-placeholder"><img class="materialboxed responsive-img z-depth-1" data-caption="Pass the Remote" src="images/pass.png" style=""></div>
                   <h5 class="center"><a href="https://mr-andersen523.github.io/pass-the-remote/" target="_blank">Pass the Remote</a></h5>
                 </div>
                 <div class="col s12 m4">
@@ -99,6 +99,28 @@
                   <h5 class="center"><a href="https://mr-andersen523.github.io/homework5/" target="_blank">Work Day Scheduler</a></h5>
                 </div>
               </div>
+              </div>
+            
+              <div class="parallax-container" id=para1>
+                  <div class="parallax"><img class= "responsive-img" src="images/pattern.jpeg"></div>
+                </div>
+
+                <div class="section" id="contact">
+                    <div class="row container">
+                      <h3>Contact Me</h3>
+                      <div class="col s12">
+                              </div>
+            
+                                <p>Click the red FAB on the bottom-right to check out my GitHub, Linkedn, Resume, or shoot me an email! </p>
+          
+                              </div>
+                            </div>
+                            
+
+
+
+            
+              
 
 
 
@@ -116,10 +138,51 @@
                 <ul>
                   <li><a class="btn-floating red tooltipped" data-position="left" data-tooltip="GitHub" id="github"><i class="fab fa-github"></i></a></li>
                   <li><a class="btn-floating yellow darken-1 tooltipped" data-position="left" data-tooltip="Linkedin" id="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                  <li><a class="btn-floating green tooltipped" data-position="left" data-tooltip="Email" id="email"><i class="far fa-envelope"></i></i></a></li>
+                  <li><a class="btn-floating green tooltipped modal-trigger" href="#emailmodal" data-position="left" data-tooltip="Email" id="email"><i class="far fa-envelope"></i></i></a></li>
                   <li><a class="btn-floating blue tooltipped" data-position="left" data-tooltip="Resume" href="resume-portfolio.pdf" id="resume"><i class="large material-icons">picture_as_pdf</i></i></a></li>
                 </ul>
               </div>
+
+
+              <div id="emailmodal" class="modal">
+                  <div class="modal-content">
+                    <h4>Send me a Message</h4>
+                    <div class="container">
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col m6 s12">
+                                                <input id="first_name" type="text" class="validate">
+                                                <label for="first_name">First Name</label>
+                                            </div>
+                                            <div class="input-field col m6 s12">
+                                                <input id="last_name" type="text" class="validate">
+                                                <label for="last_name">Last Name</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col m6 s12">
+                                                <i class="mdi-content-mail prefix"></i>
+                                                <input id="email" type="email" class="validate" required>
+                                                <label for="email">Email</label>
+                                            </div>
+                                            <div class="input-field col m6 s12">
+                                                <i class="mdi-maps-store-mall-directory prefix"></i>
+                                                <input id="company" type="text" class="validate">
+                                                <label for="company">Company</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                              <textarea id="message" class="materialize-textarea"></textarea>
+                                              <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Send</a>
+                  </div>
+                </div>
 
 
 

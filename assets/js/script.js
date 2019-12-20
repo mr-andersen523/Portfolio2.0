@@ -14,7 +14,11 @@ document.getElementById("linkedin").onclick = function () {
     location.href = "https://www.linkedin.com/in/chase-andersen-26275290/";
 };
 
+//email
 
+$(document).ready(function(){
+  $('.modal').modal();
+});
 
 //resume button
 document.getElementById("resume").onclick = function () {
@@ -39,10 +43,14 @@ $(document).ready(function(){
       $('.tooltipped').tooltip('close');
   })
 
+
+// parallax
   $(document).ready(function(){
     $('.parallax').parallax();
   });
 
+
+  //scroll function
 
   $("#about-tab").click(function() {
     $('html,body').animate({
@@ -54,4 +62,14 @@ $("#portfolio-tab").click(function() {
   $('html,body').animate({
       scrollTop: $("#portfolio").offset().top},
       'slow');
+});
+
+$("#contact-tab").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#contact").offset().top},
+      'slow');
+});
+
+$(document).ready(function(){
+  $(this).scrollTop(0);
 });
