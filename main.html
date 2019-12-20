@@ -13,12 +13,14 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- google icons for materialize-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,600,700&display=swap" rel="stylesheet">
   <!-- font awesome -->
   <script src="https://kit.fontawesome.com/eb2106c888.js" crossorigin="anonymous"></script>
   <!-- animate.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <!-- page name -->
-  <title>Contact | Chase Andersen</title>
+  <title>Chase Andersen</title>
   
 </head>
 
@@ -26,30 +28,86 @@
 <body>
      <!-- navbar -->
      <div class="navbar-fixed">
-            <nav>
+            <nav class="transparentBG z-depth-0">
               <div class="nav-wrapper">
-                <a href="#!" class="brand-logo"></a>
                 <ul class="right hide-on-med-and-down">
-                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li class="active"></li>
+                    <li><a class="btn #e0e0e0 grey lighten-2" href="#about" id="about-tab">About Me</a></li>
+                  <li><a class="btn #e0e0e0 grey lighten-2" href="#portfolio" id="portfolio-tab">Portfolio</a></li>
                 </ul>
               </div>
             </nav>
           </div>
- <!-- parallax containers/content -->
+ <!--  -->
 
-        <div class="parallax-container">
-                <div class="parallax"><img src="images/start.jpg"></div>
-              </div>
-              <div class="section white">
-                <div class="row container">
-                  <h2>About Me</h2>
-                  <img class="responsive-img" src="/images/waterfall.JPG" alt="">
-                  <p class="grey-text text-darken-3 lighten-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora</p>
+<div class="container" id="topcont">
+    <h2 class="center-align">Designer & Front-End Developer</h2>
+    <br>
+    <br>
+    <br>
+
+    <img src="images/waterfall.jpg" alt="" class="circle responsive-img">
+    <br>
+    <br>
+    <div> 
+      <p id="scrolltext">Scroll Down For More Info</p>
+    </div>
+    <i class="fas fa-arrow-down"></i>
+
+
+</div>
+
+<div class="parallax-container" id=para1>
+        <div class="parallax"><img class= "responsive-img" src="images/pattern.jpeg"></div>
+      </div>
+      <div class="section" id="about">
+        <div class="row container">
+          <h3>Hi, I'm Chase. Thanks for visiting!</h3>
+          <div class="col s12">
+                  </div>
+
+                    <p>I am a student in The University of Oregon's Coding Bootscamp. I am orginally from the Houston, Texas. I have lived in the Portland, OR for the last 5 years. </p>
+
+                    <p>My work experience has bounced around to various fields, from healthcare to service industry, aviation, and retail. I am finally ready to take that next step into finding a career! I am excited about coding and enjoy learning everything there is. </p>
+                            
+                    <p> I will be updating my page regularly with new content and more to add to my portfolio. Please, browse around and feel free to contact me and shoot me a messsage.I will respond at my earliest convenience. Thank you!!</p>
+                  </div>
+                </div>
+
+        </div>
+      </div>
+      <div class="parallax-container" id="para2">
+        <div class="parallax"><img class= "responsive-img" src="images/pattern.jpeg"></div>
+      </div>
+
+      <div class="section" id="portfolio">
+        <h3>Here's Some Of My Work</h3>
+        <div class="row">
+            <div class="col s12 m10 offset-m1">
+        
+              <div class="row">
+                <div class="col s12 m4">
+                  <div class="material-placeholder" style=""><img class="materialboxed responsive-img z-depth-1" data-caption="Pass the Remote" src="images/pass.png" style=""></div>
+                  <h5 class="center"><a href="https://mr-andersen523.github.io/pass-the-remote/" target="_blank">Pass the Remote</a></h5>
+                </div>
+                <div class="col s12 m4">
+                  <div class="material-placeholder"><img class="materialboxed responsive-img z-depth-1" data-caption="Weather Dashboard" src="images/weather.png"></div>
+                  <h5 class="center"><a href="https://mr-andersen523.github.io/homework6/" target="_blank">Weather Dashboard</a></h5>
+                </div>
+                <div class="col s12 m4">
+                  <div class="material-placeholder"><img class="materialboxed responsive-img z-depth-1" data-caption="Work Day Scheduler" src="images/work.png"></div>
+                  <h5 class="center"><a href="https://mr-andersen523.github.io/homework5/" target="_blank">Work Day Scheduler</a></h5>
                 </div>
               </div>
-              <div class="parallax-container">
-                <div class="parallax"><img src="images/computer.jpeg"></div>
-              </div>
+
+
+
+
+
+
+
+
+      
  <!-- fab -->
         <div class="fixed-action-btn">
                 <a class="btn-floating btn-large red" id="fab-btn">
