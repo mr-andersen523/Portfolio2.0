@@ -73,3 +73,8 @@ $("#contact-tab").click(function() {
 $(document).ready(function(){
   $(this).scrollTop(0);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, {});
+});
