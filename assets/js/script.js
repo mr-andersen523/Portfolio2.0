@@ -42,3 +42,11 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.parallax').parallax();
   });
+
+
+$('ul.navbar').find('a').click(function(){
+  var $href = $(this).attr('href');
+  var $anchor = $($href).offset();
+  $('body').animate({ scrollTop: $anchor.top },'slow');
+  return false;
+});

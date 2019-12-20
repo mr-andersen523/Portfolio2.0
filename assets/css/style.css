@@ -1,0 +1,30 @@
+.transparentBG {
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+#scrolltext {
+  bottom: 0;
+}
+
+h2,h3,h4 {
+  font-family: 'Barlow', sans-serif;
+}
+
+html {
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+#para1, #para2, #para3, #para4 {
+  width: 100%;
+  height: 200px;
+}
+#topcont {
+  min-height:100vh;
+}
+
+img {
+  padding: 10px;
+}
+
